@@ -1,0 +1,19 @@
+program HelloWorld;
+const
+  greeting = 'Hello, world!';
+  max = 32767;
+var
+  x, y: integer;
+begin
+  x := 10;
+  y := x + 5;
+  writeln(greeting);
+  if x < y then
+    writeln('x меньше y')
+  else
+    writeln('x больше или равен y');
+  while x > 0 do
+  begin
+    x := x - 1;
+  end;
+end.

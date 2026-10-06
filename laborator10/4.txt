@@ -1,0 +1,13 @@
+program EdgeCases;
+
+var
+  maxInt: integer;
+
+begin
+  maxInt := 32767; 
+  
+  writeln(maxInt);
+  
+  
+  writeln('end');
+end.

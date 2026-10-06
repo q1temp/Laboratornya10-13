@@ -1,0 +1,12 @@
+program Complex;
+var
+  str1, str2: string;
+begin
+  str1 := 'It''s a string with escaped quote';
+  str2 := 'Another ''test''';
+  { Комментарий внутри кода }
+  writeln(str1);
+  writeln(str2);
+  // Однострочный комментарий
+  writeln('Done');
+end.
